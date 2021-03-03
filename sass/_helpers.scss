@@ -1,0 +1,62 @@
+.container{
+	width:80%;
+	margin:0 10%;
+}
+.content_image{
+	img{
+		max-width:100%;
+	}
+}
+/*CENTRALIZADOR*/
+.al-center{display: block;margin: 0 auto;}
+/*DISPLAYS*/
+.ds-block{display: block;}
+.ds-inline{display: inline;}
+.ds-inline-block{display: inline-block;}
+.ds-none{display: none;}
+/*FLOATS*/
+.fl-left{float: left;}
+.fl-right{float: right;}
+.fl-none{float: none;}
+/*TEXT*/
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-center{text-align: center;}
+/*TEXT-SHADOW*/
+.text-shadow1{text-shadow: 2px 2px white;}
+.text-shadow2{text-shadow: 2px 2px black;}
+.text-shadow3{text-shadow: 2px 2px gray;}
+/*FONT-WEIGHT*/
+.font-light{font-weight: 300;}
+.font-regular{font-weight: 400;}
+.font-bold{font-weight: 700;}
+.font-black{font-weight: 900;}
+/*FONT-SIZE*/
+.font0{font-size: 0;}
+.font1{font-size: 1.5em;}
+.font2{font-size: 1.5em;}
+.font3{font-size: 2em;}
+.font4{font-size: 2.5em;}
+/*HOVER-EFECTS*/
+.hover-border{transition: 0.5s all ease-in;}
+.hover-border:hover{color:black;cursor: pointer; border: 2px solid black}
+/*FORMULÁRIOS*/
+input{padding: 10px;}
+textarea{padding: 10px;height: 80px;}
+/*HELPERS*/
+.transparent{background-color: rgba(255,255,255,0.4);}
+/*MARGINS*/
+.margintop1{margin-top: 10px;}
+.margintop2{margin-top: 20px;}
+.margintop3{margin-top: 30px;}
+.margintop4{margin-top: 40px;}
+.marginbottom1{margin-bottom: 10px;}
+.marginbottom2{margin-bottom: 20px;}
+.marginbottom3{margin-bottom: 30px;}
+.marginbottom4{margin-bottom: 40px;}
+/*MIDIAS SOCIAIS*/
+.fa{min-width: 30px;padding: 5px;}
+.fa-facebook{color: #FFFFFF;background-color: #2A00FF;padding-left: 20px;}
+.fa-twitter{color: #09C0D1;background-color: white;}
+.fa-instagram{color: #FB0808;background: -webkit-linear-gradient(right,red, yellow);}
+.fa-youtube{color: #FB0808;background-color:#FFFFFF;}
